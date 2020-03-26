@@ -1,0 +1,24 @@
+body {
+color: whitesmoke;
+font-size: 2rem;
+text-shadow:3px 3px 3px black;    
+background-image: url('https://st2.depositphotos.com/9527076/12335/i/950/depositphotos_123358842-stock-photo-fitness-workout-background-dumbbells-on.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.pushBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pushBtn > button {
+    margin: 3rem;
+    height: 6rem;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    box-shadow:7px 7px 4px black;
+    background-color: rgba(85, 85, 139, 0.555);
+    border:2px solid rgba(0, 0, 255, 0.836);
+}
